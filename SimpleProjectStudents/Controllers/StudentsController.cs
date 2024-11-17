@@ -87,6 +87,33 @@ namespace SimpleProjectStudents.Controllers
 
 
 
+        [HttpPut("{id}", Name = "UpdateStudent")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
+        public ActionResult<StudentDTO> UpdateStudent(int id,  StudentDTO updatedStudent)
+        {
+            if(id < 1 || UpdateStudent == null || string.IsNullOrEmpty(updatedStudent.Name))
+            {
+                return BadRequest("Invalid student data");
+            }
+
+            clsStudent student = clsStudent.Find(id);
+            if (student == null)
+                return NotFound($"Student with ID {id} Not Found");
+
+            student.Name = updatedStudent.Name;
+            student.Age = updatedStudent.age;
+            student.Grade = updatedStudent.grade;
+
+            if (student.Save())
+            {
+                return Ok(student.SDTO);
+            }
+            else return BadRequest("an error occurred");
+        }
+
 
     }
 }

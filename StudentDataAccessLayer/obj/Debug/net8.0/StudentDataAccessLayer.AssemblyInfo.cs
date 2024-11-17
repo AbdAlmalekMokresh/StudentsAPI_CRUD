@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentDataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfb6c914da136d0eb8bae23ce3174486d92071b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23276a402a4541f5c70ff85e2c6c53229f87208f")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentDataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentDataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
