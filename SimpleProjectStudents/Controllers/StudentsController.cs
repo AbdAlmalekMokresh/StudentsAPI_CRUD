@@ -42,5 +42,30 @@ namespace SimpleProjectStudents.Controllers
             double avg = clsStudent.GetAverageGrade();
             return Ok(avg);
         }
+
+        [HttpGet("{id}", Name = "GetStudentByID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentDTO> GetStudentByID(int id)
+        {
+            if (id < 1)
+                return BadRequest($"Not Accepted ID {id}");
+
+            clsStudent student = clsStudent.Find(id);
+            // here, we can make a SAVE(), UPDATE() ,...  
+
+            if (student == null)
+                return NotFound($"ٍStudent with ID {id} not found");
+
+            StudentDTO SDTO = student.SDTO;
+            return Ok(SDTO);
+        }
+
+
+    
+
+
+
     }
 }

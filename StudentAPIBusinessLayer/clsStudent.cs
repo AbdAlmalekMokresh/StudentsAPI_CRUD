@@ -13,7 +13,17 @@ namespace StudentAPIBusinessLayer
         public int Age { get; set; }
         public int Grade { get; set; }
 
-        public StudentDTO SDTO  // composition
+
+        public clsStudent(StudentDTO SDTO, enMode sMode = enMode.AddNew)
+        {
+            this.ID = SDTO.Id;
+            this.Name = SDTO.Name;
+            this.Age = SDTO.age;
+            this.Grade = SDTO.grade;
+            this.Mode = sMode;
+        }
+
+        public StudentDTO SDTO  // composition   "to return it to the user"
         {
             get { return (new StudentDTO(this.ID, this.Name, this.Age, this.Grade)); } 
         }
@@ -31,6 +41,15 @@ namespace StudentAPIBusinessLayer
         public static double GetAverageGrade()
         {
             return StudentData.GetAverageGrade();
+        }
+        public static clsStudent Find(int id)
+        {
+            StudentDTO SDTO = StudentData.GetStudentByID(id);
+
+            if (SDTO != null)
+                return new clsStudent(SDTO, enMode.UpdateNew);
+            else 
+                return null;
         }
     }
 }
