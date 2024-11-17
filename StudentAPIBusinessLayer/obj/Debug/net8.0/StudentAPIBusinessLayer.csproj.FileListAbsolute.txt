@@ -1,0 +1,15 @@
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.AssemblyInfo.cs
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.deps.json
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentA.BCA95842.Up2Date
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.dll
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\refint\StudentAPIBusinessLayer.dll
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.pdb
+C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\ref\StudentAPIBusinessLayer.dll
