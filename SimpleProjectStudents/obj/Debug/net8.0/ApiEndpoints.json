@@ -1,6 +1,42 @@
 [
   {
     "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
+    "Method": "AddStudent",
+    "RelativePath": "api/students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newStudentDTO",
+        "Type": "StudentDataAccessLayer.StudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StudentDataAccessLayer.StudentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddStudent"
+  },
+  {
+    "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
     "Method": "GetStudentByID",
     "RelativePath": "api/students/{id}",
     "HttpMethod": "GET",

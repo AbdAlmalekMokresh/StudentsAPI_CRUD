@@ -62,8 +62,29 @@ namespace SimpleProjectStudents.Controllers
             return Ok(SDTO);
         }
 
+        [HttpPost(Name = "AddStudent")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        
+        public ActionResult<StudentDTO> AddStudent(StudentDTO newStudentDTO)
+        {
+            if (newStudentDTO == null || string.IsNullOrEmpty(newStudentDTO.Name) || newStudentDTO.age < 18)
+                return BadRequest("Invalid Student data");
 
-    
+            clsStudent student = new clsStudent(new StudentDTO(newStudentDTO.Id, newStudentDTO.Name, newStudentDTO.age, newStudentDTO.grade));
+         
+            
+            if(student.Save())
+            {
+                newStudentDTO.Id = student.ID;
+                return CreatedAtRoute("GetStudentById", new { id = newStudentDTO.Id }, newStudentDTO);
+            }
+            else
+            {
+                return BadRequest("Invalid data");
+            }
+        }
+
 
 
 

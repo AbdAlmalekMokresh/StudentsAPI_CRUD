@@ -51,5 +51,34 @@ namespace StudentAPIBusinessLayer
             else 
                 return null;
         }
+        private bool _AddNewStudent()
+        {
+            this.ID = StudentData.AddStudent(SDTO);
+            return this.ID != -1;
+        }
+        private bool _UpdateStudent()
+        {
+            return StudentData.UpdateStudent(SDTO);
+        }
+        public bool Save()
+        {
+            switch(Mode)
+            {
+                case enMode.AddNew:
+                    {
+                        if(_AddNewStudent())
+                        {
+                            Mode = enMode.UpdateNew;
+                            return true;
+                        }
+                        return false;
+                    }
+                case enMode.UpdateNew:
+                    {
+                        return _UpdateStudent();
+                    }
+                default: return false;
+            }
+        }
     }
 }
