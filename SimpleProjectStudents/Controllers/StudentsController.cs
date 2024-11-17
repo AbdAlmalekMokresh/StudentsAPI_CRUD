@@ -34,5 +34,13 @@ namespace SimpleProjectStudents.Controllers
             return Ok(PassedStudentsList);
         }
 
+
+        [HttpGet("AverageGrade", Name = "GetAverageGrade")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public ActionResult<double> GetAverageGrade()
+        {
+            double avg = clsStudent.GetAverageGrade();
+            return Ok(avg);
+        }
     }
 }

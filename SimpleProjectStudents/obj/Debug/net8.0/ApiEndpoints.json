@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "SimpleProjectStudents.Controllers.ValuesController",
+    "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
     "Method": "GetAllStudents",
     "RelativePath": "api/students/All",
     "HttpMethod": "GET",
@@ -30,7 +30,28 @@
     "EndpointName": "GetAllStudents"
   },
   {
-    "ContainingType": "SimpleProjectStudents.Controllers.ValuesController",
+    "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
+    "Method": "GetAverageGrade",
+    "RelativePath": "api/students/AverageGrade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAverageGrade"
+  },
+  {
+    "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
     "Method": "GetPassedStudents",
     "RelativePath": "api/students/Passed",
     "HttpMethod": "GET",

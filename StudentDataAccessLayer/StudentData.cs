@@ -68,6 +68,26 @@ namespace StudentDataAccessLayer
         }
 
 
+        public static double GetAverageGrade()
+        {
+            double avgGrade = 0;
+            using (SqlConnection connectoin = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SP_GetAverageGrade", connectoin))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    connectoin.Open();
+
+                    object result = cmd.ExecuteScalar();
+                    if (result != DBNull.Value)
+                    {
+                        avgGrade = Convert.ToDouble(result);
+                    }
+                }
+            }
+            return avgGrade;
+        }
+
 
     }
 }

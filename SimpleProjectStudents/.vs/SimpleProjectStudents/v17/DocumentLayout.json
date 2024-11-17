@@ -3,14 +3,8 @@
   "WorkspaceRootPath": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|d:\\projects\\curd api project\\simpleprojectstudents\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E848453A-622F-41BB-9AD2-19F5B7EC5795}|..\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj|d:\\projects\\curd api project\\studentdataaccesslayer\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8D4202-5796-4877-8C3E-619BDB440A22}|..\\StudentAPIBusinessLayer\\StudentAPIBusinessLayer.csproj|d:\\projects\\curd api project\\studentapibusinesslayer\\clsstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|d:\\projects\\curd api project\\simpleprojectstudents\\simpleprojectstudents.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|solutionrelative:simpleprojectstudents.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,41 +26,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentData.cs",
-              "DocumentMoniker": "D:\\Projects\\CURD API Project\\StudentDataAccessLayer\\StudentData.cs",
-              "RelativeDocumentMoniker": "..\\StudentDataAccessLayer\\StudentData.cs",
-              "ToolTip": "D:\\Projects\\CURD API Project\\StudentDataAccessLayer\\StudentData.cs",
-              "RelativeToolTip": "..\\StudentDataAccessLayer\\StudentData.cs",
-              "ViewState": "AgIAAAEAAADgMjMzMzMLwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:16:16.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsStudent.cs",
-              "DocumentMoniker": "D:\\Projects\\CURD API Project\\StudentAPIBusinessLayer\\clsStudent.cs",
-              "RelativeDocumentMoniker": "..\\StudentAPIBusinessLayer\\clsStudent.cs",
-              "ToolTip": "D:\\Projects\\CURD API Project\\StudentAPIBusinessLayer\\clsStudent.cs",
-              "RelativeToolTip": "..\\StudentAPIBusinessLayer\\clsStudent.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:15:47.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAoAAADAMjMzMzMLwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:17:22.868Z",
+              "Title": "SimpleProjectStudents",
+              "DocumentMoniker": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\SimpleProjectStudents.csproj",
+              "RelativeDocumentMoniker": "SimpleProjectStudents.csproj",
+              "ToolTip": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\SimpleProjectStudents.csproj",
+              "RelativeToolTip": "SimpleProjectStudents.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T14:32:20.187Z",
               "EditorCaption": ""
             }
           ]
