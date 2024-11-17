@@ -7,7 +7,7 @@ namespace SimpleProjectStudents.Controllers
 {
     [Route("api/students")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class StudentsController : ControllerBase
     {
         [HttpGet("All", Name ="GetAllStudents")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -22,6 +22,17 @@ namespace SimpleProjectStudents.Controllers
             return Ok(studentList);
         }
 
+
+        [HttpGet("Passed", Name = "GetPassedStudents")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<StudentDTO>> GetPassedStudents()
+        {
+            List<StudentDTO> PassedStudentsList = clsStudent.GetPassedStudents();
+            if (PassedStudentsList.Count == 0)
+                return NotFound("Not Found Students");
+            return Ok(PassedStudentsList);
+        }
 
     }
 }

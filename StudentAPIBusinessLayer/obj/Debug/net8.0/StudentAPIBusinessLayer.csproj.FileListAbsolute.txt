@@ -13,3 +13,19 @@ C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBu
 C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\refint\StudentAPIBusinessLayer.dll
 C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.pdb
 C:\Users\acer\source\repos\StudentAPIBusinessLayer\obj\Debug\net8.0\ref\StudentAPIBusinessLayer.dll
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.deps.json
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.csproj.AssemblyReference.cache
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.AssemblyInfoInputs.cache
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.AssemblyInfo.cs
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentA.BCA95842.Up2Date
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\refint\StudentAPIBusinessLayer.dll
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\ref\StudentAPIBusinessLayer.dll
+D:\Projects\CURD API Project\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.sourcelink.json

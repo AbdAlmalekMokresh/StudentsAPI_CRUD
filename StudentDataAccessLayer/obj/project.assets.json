@@ -1692,11 +1692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acer\\source\\repos\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+      "projectUniqueName": "D:\\Projects\\CURD API Project\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
       "projectName": "StudentDataAccessLayer",
-      "projectPath": "C:\\Users\\acer\\source\\repos\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+      "projectPath": "D:\\Projects\\CURD API Project\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acer\\source\\repos\\StudentDataAccessLayer\\obj\\",
+      "outputPath": "D:\\Projects\\CURD API Project\\StudentDataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

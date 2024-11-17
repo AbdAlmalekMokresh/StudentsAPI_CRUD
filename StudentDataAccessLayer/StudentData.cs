@@ -15,7 +15,7 @@ namespace StudentDataAccessLayer
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("SP_GetAllStudents", connection))
+                using (SqlCommand cmd = new SqlCommand("SP_GetPassedStudents", connection))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     connection.Open();
@@ -37,5 +37,37 @@ namespace StudentDataAccessLayer
             }
 
         }
+
+
+        public static List<StudentDTO> GetPassedStudents()
+        {
+            var StudentList = new List<StudentDTO>();
+
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SP_GetPassedStudents", connection))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    connection.Open();
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            StudentList.Add(new StudentDTO(
+                                reader.GetInt32(reader.GetOrdinal("Id")),
+                                reader.GetString(reader.GetOrdinal("Name")),
+                                reader.GetInt32(reader.GetOrdinal("Age")),
+                                reader.GetInt32(reader.GetOrdinal("Grade"))
+                              ));
+                        }
+                    }
+                }
+                return StudentList;
+            }
+        }
+
+
+
     }
 }
