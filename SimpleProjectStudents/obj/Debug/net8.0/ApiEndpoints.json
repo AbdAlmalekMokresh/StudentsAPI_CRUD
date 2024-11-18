@@ -242,5 +242,21 @@
       }
     ],
     "EndpointName": "GetPassedStudents"
+  },
+  {
+    "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
+    "Method": "UploadImage",
+    "RelativePath": "api/students/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -167,8 +167,6 @@ namespace StudentDataAccessLayer
             }
         }
 
-
-
         public static bool DeleteStudent(int id)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -185,5 +183,7 @@ namespace StudentDataAccessLayer
                 }
             }
         }
+
+       
     }
 }

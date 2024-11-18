@@ -130,7 +130,32 @@ namespace SimpleProjectStudents.Controllers
         }
 
 
+        [HttpPost("Upload")]
+        public async Task<IActionResult> UploadImage(IFormFile imageFile)
+        {
+            if (imageFile == null || imageFile.Length == 0)
+                return BadRequest("no file uploaded");
 
+            var uploadDirectory = @"D:\Projects\CURD API Project\Images";
+
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+            var filePath = Path.Combine(uploadDirectory, fileName);
+
+            if (!Directory.Exists(uploadDirectory))  // ensure the directory exist, if not create a new directory
+            {
+                Directory.CreateDirectory(uploadDirectory);
+            }
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await imageFile.CopyToAsync(stream);
+            }
+
+            return Ok(new { filePath });
+        }
+
+
+        
 
     }
 }
