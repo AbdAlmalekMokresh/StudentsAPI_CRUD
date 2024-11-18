@@ -83,5 +83,10 @@ namespace StudentAPIBusinessLayer
                 default: return false;
             }
         }
+
+        public static bool DeleteStudent(int id)
+        {
+            return StudentData.DeleteStudent(id);
+        }
     }
 }

@@ -115,5 +115,22 @@ namespace SimpleProjectStudents.Controllers
         }
 
 
+        [HttpDelete("Id", Name = "DeleteStudent")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+
+        public ActionResult DeleteStudent(int id)
+        {
+            if (id < 1)
+                return BadRequest($"Not Accepted ID {id}");
+
+            if (clsStudent.DeleteStudent(id))
+                return Ok("Deleted Succesfully");
+            else return NotFound($"Student with ID {id} not found");
+        }
+
+
+
+
     }
 }
