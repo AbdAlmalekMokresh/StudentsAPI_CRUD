@@ -155,7 +155,34 @@ namespace SimpleProjectStudents.Controllers
         }
 
 
-        
+        [HttpGet("GetImage/{fileName}")]
+        public IActionResult GetImage(string fileName)
+        {
+            var uploadDirectory = @"D:\Projects\CURD API Project\Images";
+            var filePath = Path.Combine(uploadDirectory, fileName);
+
+            if (!System.IO.File.Exists(filePath))
+                return NotFound("Image not found");
+
+            var image = System.IO.File.OpenRead(filePath);
+            var mimeType = GetMimeType(filePath);
+
+            return File(image, mimeType);
+        }
+
+
+
+        private string GetMimeType(string filepath)
+        {
+            var extension = Path.GetExtension(filepath).ToLowerInvariant();
+            return extension switch
+            {
+                ".jpg" or ".jpeg" => "image/jpeg",
+                ".png" => "image/png",
+                ".gif" => "image/gif",
+                _ => "application/octet-stream",
+            };
+        }
 
     }
 }
