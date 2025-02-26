@@ -23,6 +23,7 @@ namespace SimpleProjectStudents.Controllers
         }
 
 
+
         [HttpGet("Passed", Name = "GetPassedStudents")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -130,6 +131,7 @@ namespace SimpleProjectStudents.Controllers
         }
 
 
+
         [HttpPost("Upload")]
         public async Task<IActionResult> UploadImage(IFormFile imageFile)
         {
@@ -153,7 +155,14 @@ namespace SimpleProjectStudents.Controllers
 
             return Ok(new { filePath });
         }
-
+        [HttpDelete("DeletePerson")]
+        public IActionResult DeletePerson(int ID)
+        {
+            var isDeleted = StudentData.DeleteStudent(ID);
+            if (isDeleted)
+                return Ok("Deleted Successfully");
+            else return BadRequest("can't find this person");
+        }
 
         [HttpGet("GetImage/{fileName}")]
         public IActionResult GetImage(string fileName)
@@ -170,8 +179,6 @@ namespace SimpleProjectStudents.Controllers
             return File(image, mimeType);
         }
 
-
-
         private string GetMimeType(string filepath)
         {
             var extension = Path.GetExtension(filepath).ToLowerInvariant();
@@ -183,6 +190,7 @@ namespace SimpleProjectStudents.Controllers
                 _ => "application/octet-stream",
             };
         }
-
+        
+  
     }
 }

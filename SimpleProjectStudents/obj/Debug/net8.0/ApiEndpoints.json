@@ -183,6 +183,22 @@
   },
   {
     "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/students/DeletePerson",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleProjectStudents.Controllers.StudentsController",
     "Method": "GetImage",
     "RelativePath": "api/students/GetImage/{fileName}",
     "HttpMethod": "GET",

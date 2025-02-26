@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|d:\\projects\\curd api project\\simpleprojectstudents\\railway.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|solutionrelative:railway.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|d:\\projects\\curd api project\\simpleprojectstudents\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|d:\\projects\\curd api project\\simpleprojectstudents\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{038DC87A-571E-4AB7-AAA4-89643AA23A14}|SimpleProjectStudents.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,24 +38,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-26T10:45:18.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "railway.toml",
+              "DocumentMoniker": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\railway.toml",
+              "RelativeDocumentMoniker": "railway.toml",
+              "ToolTip": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\railway.toml",
+              "RelativeToolTip": "railway.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-26T10:43:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "clsStudent.cs",
               "DocumentMoniker": "D:\\Projects\\CURD API Project\\StudentAPIBusinessLayer\\clsStudent.cs",
               "RelativeDocumentMoniker": "..\\StudentAPIBusinessLayer\\clsStudent.cs",
               "ToolTip": "D:\\Projects\\CURD API Project\\StudentAPIBusinessLayer\\clsStudent.cs",
               "RelativeToolTip": "..\\StudentAPIBusinessLayer\\clsStudent.cs",
-              "ViewState": "AgIAAD8AAAAYMzMzM7MwwFgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAABgZmZmZmYkwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T14:42:45.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
               "ToolTip": "D:\\Projects\\CURD API Project\\SimpleProjectStudents\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAJgAAAAAmJmZmZkdwKkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAQAAAAAqwMQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T14:38:58.78Z",
               "EditorCaption": ""
