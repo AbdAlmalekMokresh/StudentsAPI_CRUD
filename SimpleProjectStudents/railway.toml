@@ -4,4 +4,4 @@ command = "dotnet publish -c Release -o out"
 
 [deploy]
 service = "api"
-start = "dotnet out/StudentsAPI_CRUD.dll"
+start = "dotnet out/SimpleProjectStudents.dll"
